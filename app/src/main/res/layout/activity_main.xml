@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="workholics.com.myroomdemo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+             android:textColor="@color/red_800"
+            android:text="All Developer Record"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_developer1"
+        android:text="Developer1"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_developer2"
+        android:text="Developer2"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_developer3"
+        android:text="Developer3"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_1"
+        android:textColor="@color/red_800"
+        android:text="Get developer by Id"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_developer_by_id"
+        android:text="Developer By Id"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textColor="@color/purple_500"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/red_800"
+            android:text="Get developer by Name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_developer_by_name"
+            android:text="Developer By Id"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/Plum_Velvet"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/red_800"
+            android:text="All Salary Record"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_salary"
+            android:text="Developer1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/red_800"
+            android:text="Record By Specific Salary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_particular_salary"
+            android:text="Developer1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/red_800"
+            android:text="Salary Record By Developer Id"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_particular_salary_developer_id"
+            android:text="Developer1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/red_800"
+            android:text="Salary Record By Developer with name"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_particular_salary_developer_name"
+            android:text="Developer1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
